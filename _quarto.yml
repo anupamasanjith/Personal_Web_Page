@@ -1,0 +1,24 @@
+project:
+  type: website
+  resources:
+    - resume.pdf
+    
+
+website:
+  title: "Anupama"
+  site-url: https://asanj.dev
+  description: "Technology"
+  open-graph:
+    locale: en_US
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Papers"
+        href: papers
+      - text: "Presentations"
+        href: presentations
+format:
+  html:
+    theme: darkly
+   
